@@ -1,0 +1,29 @@
+# KiCad
+*-backups/
+*.kicad_prl
+*.lck
+fp-info-cache
+_autosave-*
+*.bak
+
+# Arduino / build
+build/
+*.bin
+*.elf
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Fusion 360 (CADデータ本体はクラウド管理。STEP/STLのみコミット)
+*.f3d.bak
+
+# Logs (生ログは大きいので除外。解析結果のみコミット)
+logs/raw/
+
+# OS / editor
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
